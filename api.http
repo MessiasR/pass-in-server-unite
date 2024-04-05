@@ -2,7 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Unite Summit",
-    "details": "Um evento para quem é apaixonado por progamação",
-    "maximumAttendees": 100
+    "title": "New Event2",
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/1324fa10-82c2-4be6-8810-8f212c7ec00a/attendees
+Content-Type: application/json
+
+{
+    "name": "Messias Ribeiro do Amaral",
+    "email": "messiasamaral1234@gmail.com"
 }
