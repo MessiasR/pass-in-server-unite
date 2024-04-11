@@ -2,17 +2,25 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "New Event2",
+    "title": "New Event3",
     "details": null,
-    "maximumAttendees": 1
+    "maximumAttendees": 2
 }
 
 ###
 
-POST http://localhost:3333/events/1324fa10-82c2-4be6-8810-8f212c7ec00a/attendees
+POST http://localhost:3333/events/d24ec8dc-b03f-4a01-ba2c-837c7fec0aa6/attendees
 Content-Type: application/json
 
 {
     "name": "Messias Ribeiro do Amaral",
     "email": "messiasamaral1234@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/events/d24ec8dc-b03f-4a01-ba2c-837c7fec0aa6
+
+###
+
+GET http://localhost:3333/attendees/4/badge

@@ -66,4 +66,4 @@ export async function registerForEvent(app: FastifyInstance) {
 
             return reply.status(201).send({ attendeId: attendee.id })
         })
-}
+} 
