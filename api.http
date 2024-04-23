@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "name": "Messias Ribeiro do Amaral",
-    "email": "messiasamaral1234@gmail.com"
+    "email": "messiasamaral123@gmail.com"
 }
 
 ###
@@ -24,3 +24,11 @@ GET http://localhost:3333/events/d24ec8dc-b03f-4a01-ba2c-837c7fec0aa6
 ###
 
 GET http://localhost:3333/attendees/4/badge
+
+###
+
+GET http://localhost:3333/attendees/4/check-in
+
+###
+
+GET http://localhost:3333/events/d24ec8dc-b03f-4a01-ba2c-837c7fec0aa6/attendees
